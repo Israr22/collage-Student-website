@@ -1,0 +1,148 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .slider {
+        width: 400px;
+        height: auto;
+        background: url(image.jpg/image1.jpg);
+        background-repeat: no-repeat;
+        animation: slide 20s infinite;
+        margin-left: 25px;
+    }
+    
+    @keyframes slide {
+        25% {
+            background: url(image.jpg/image2.jpg);
+        }
+        50% {
+            background: url(image.jpg/image3.jpg);
+        }
+        75% {
+            background: url(image.jpg/image4.jpg);
+        }
+        100% {
+            background: url(image.jpg/image1.jpg);
+        }
+    }
+    
+    #head-title {
+        font-family: 'Red Hat Mono', monospace;
+        color: white;
+        text-align: flex;
+        font-size: 50px;
+        margin-left: 3cm;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #0e0635db;
+        margin-right: 92px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar {
+        position: sticky;
+        margin-left: 3cm;
+        background: #640a70;
+        margin-right: 92px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        word-wrap: wrap;
+    }
+    
+    .navbar li {
+        display: inline-flex;
+        margin-inline-end: 40px;
+        padding: 4px;
+        margin-left: 35px;
+    }
+    
+    .navbar li a {
+        color: white;
+    }
+    
+    .box1 {
+        height: 12cm;
+        width: 25vw;
+        border: 2px solid #062c35b0;
+        margin-left: 25px;
+    }
+    
+    .box2 {
+        height: 12cm;
+        width: 25vw;
+        border: 2px solid #0e0635db;
+        margin-left: 28px;
+    }
+    
+    .row div li {
+        display: inline-block;
+        margin-inline-start: 50px;
+        margin-top: 5px;
+    }
+    
+    .row_menu {
+        width: 344px;
+        background-color: #0e0635db;
+        height: 40px;
+        color: white;
+    }
+    
+    .a {
+        height: 20px;
+        width: 65px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    
+    .flex-all-in-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 12vh;
+        background: rgb(26, 25, 25);
+        color: white;
+    }
+    
+    .footer {
+        height: 3cm;
+        background: rgb(58, 57, 57);
+        color: white;
+        font-size: medium;
+        padding-left: 3cm;
+        padding-top: 45px;
+    }
+    
+    .footer h2,
+    p {
+        padding-bottom: 15px;
+    }
+    
+    #top {
+        color: #0e0635db;
+        font-size: 25px;
+        scroll-behavior: auto;
+        margin: 12px;
+    }
+    
+    .video {
+        display: inline-flex;
+        margin: 35px;
+        margin-left: 3cm;
+    }
+    
+    .view {
+        margin-top: 225px;
+        margin-left: 1cm;
+        border: 2px solid;
+        height: fit-content;
+        border-radius: 5px;
+    }
